@@ -12,6 +12,10 @@ gem 'rails', '~> 5.1.5'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+#for way
+gem 'jquery-rails'
+#extra sass
+gem 'bootstrap-sass', '~> 3.3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -33,11 +37,17 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#to convert erb to haml
+gem "haml-rails"
+
 #haml for easy dev
 gem 'haml'
 
 #paperclip to upload 
 gem "paperclip", "~> 5.2.1"
+
+#for making them forms 
+gem 'simple_form'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
